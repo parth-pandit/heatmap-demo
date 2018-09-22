@@ -1,10 +1,10 @@
 ---
 applications:
-- name: pcfdemo-v2
+- name: heat-map-demo 
   memory: 1G 
   instances: 1
-  host: pcfdemo-ppandit-v2
+  host: heatmap-ppandit
   path: ./target/pcfdemo.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
-  services:
-   - pcf-demo-rabbitmq
+  # services:
+  #  - pcf-demo-rabbitmq
