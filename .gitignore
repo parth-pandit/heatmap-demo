@@ -3,3 +3,11 @@
 .project
 .settings/
 .idea/
+.DS_Store
+PCF-demo.iml
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/com/.DS_Store
+src/main/java/com/pivotal/.DS_Store
+src/main/java/com/pivotal/example/.DS_Store
